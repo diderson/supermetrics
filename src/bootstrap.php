@@ -8,8 +8,5 @@ reproduced or used without prior permission.
 ------------------------------------------------------
 Copyright 2021
 ======================================================	*/
-require 'bootstrap.php';
-
-use Didi\Supermetrics\Gateway;
-
-$gateway = new Gateway;
+include "constants.php";
+require 'vendor/autoload.php';
