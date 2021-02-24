@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  ubuntu-apache:
+    build:
+      context: .
+      dockerfile: ./docker_src/apache.Dockerfile
+    container_name: apache-php
+    volumes:
+      - ./src:/data/www
+    privileged: true
+    ports:
+      - '8084:80'
+    networks:
+      - supermetrics_network
+networks:
+  supermetrics_network:
