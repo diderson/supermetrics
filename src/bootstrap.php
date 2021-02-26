@@ -1,6 +1,6 @@
 <?php
 /*	======================================================
-Didi Baka Senior Developer Developer
+Didi Baka Senior Software Developer (dieudonnedbaka@gmail.com)
 ------------------------------------------------------
 NOTE: This code is intellectual property of
 Diderson Baka  and may not be
