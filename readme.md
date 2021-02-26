@@ -1,6 +1,6 @@
 # Supermetrics Assignment
 
-This project have been completed by scratch using PHP and can run in docker container
+This project have been completed from scratch by using PHP and can run in docker container
 
 you can demo at: https://supermetrics.dipatek.net
 
