@@ -36,7 +36,8 @@ class Post implements PostInterface {
 		$avg_posts_tmp = $posts_per_month->map(function ($posts) {
 			$sum_length = $posts->sum('length');
 			$count = $posts->count();
-			return round(($sum_length / $count), 2);
+			$avg = $sum_length / $count;
+			return round($avg, 2);
 		})->all();
 
 		return $avg_posts_tmp;
@@ -102,7 +103,8 @@ class Post implements PostInterface {
 		$avg_posts_per_month = [];
 
 		foreach ($posts_per_month as $mk => $month) {
-			$avg_posts_per_month[$mk] = round(count(($month) / $total_user), 2);
+			$avg = count($month) / $total_user;
+			$avg_posts_per_month[$mk] = round($avg, 2);
 		}
 
 		return $avg_posts_per_month;
