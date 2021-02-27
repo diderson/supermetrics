@@ -48,4 +48,11 @@ docker-compose up -d or docker-compose up to monitor the containers
 - https://packagist.org/packages/guzzlehttp/guzzle (makes it easy to do http request)
 - https://packagist.org/packages/spatie/laravel-collection-macros (I used it to manipulate collection of data from Json)
 - https://carbon.nesbot.com/ (been used to work with date)
+- https://phpunit.readthedocs.io/en/9.5/installation.html (unit test)
+
+### Unit Test
+
+You can run the unit test from your terminal into folder `src`
+
+run: ./vendor/bin/phpunit --testdox tests
 

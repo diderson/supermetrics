@@ -11,5 +11,8 @@
         "psr-4": {
             "Didi\\": "didi/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }
